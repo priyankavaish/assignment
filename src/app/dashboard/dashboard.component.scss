@@ -1,0 +1,137 @@
+
+.blueText p{
+	color: #59619d;
+	font-weight: 700;
+}
+.blackText p{
+	color: #000;
+    font-weight: 700;
+    margin-bottom: 2px !important;
+}
+
+.blackText2 p{
+	color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 2px !important;
+}
+
+.blackText3 p{
+	color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 2px !important;
+}
+.blackText2 span{
+    color: #a29e9e;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 2px !important;
+}
+.blackText3 span{
+    color: #a29e9e;
+    font-weight: 400;
+    float: right;
+    font-size: 14px;
+    margin-bottom: 2px !important;
+}
+.bgLogin{
+	/*height: 100vh;*/
+   /* position: fixed;
+    top: 0;
+    bottom: 0;*/
+     margin-top: -24px;
+    background-color: #edf0f3 !important;
+}
+
+ul.a {
+	list-style-type: disc; font-size: 15px;color: #a29e9e;}
+
+.fontHead{
+        font-weight: 700;
+}
+
+.borRad{
+        border-radius: 14px;
+}
+
+[type="search"]{
+    
+    border : 1px solid #ddd;
+}
+
+.smallHead{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.LeftSide{
+    margin-right: 12px;
+    margin-left: 15px;
+}
+
+  ul.chec-radio {
+    margin-left: -28px;
+}
+ul.chec-radio li.pz {
+    display: inline;
+}
+.chec-radio label.radio-inline input[type="checkbox"] {
+    display: none;
+}
+.chec-radio label.radio-inline input[type="checkbox"]:checked+div {
+    color: #fff;
+    background-color: #3aa7e5;
+}
+.chec-radio .radio-inline .clab {
+    cursor: pointer;
+    background: #b3dea2;
+    padding: 3px 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    position: relative;
+    float: left;
+    margin: 0;
+   /* margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;*/
+    border-radius: 4px;
+}
+.chec-radio label.radio-inline input[type="checkbox"]:checked+div:before {
+    content: "";
+    margin-right: 5px;
+    font-family: 'Glyphicons Halflings';
+}
+.chec-radio label.radio-inline input[type="radio"] {
+    display: none;
+}
+.chec-radio label.radio-inline input[type="radio"]:checked+div {
+    color: #000;
+    background-color: #7bba00;
+    font-size: 15px;
+    font-weight: 500;
+}
+.chec-radio label.radio-inline input[type="radio"]:checked+div:before {
+    content: "";
+    margin-right: 5px;
+}
+
+.cut-check{
+  display:none;
+}
+
+.chec-radio label.radio-inline input[type="checkbox"]:checked+div .cut-check{
+  display:block;
+}
+
+.f500{
+    font-weight: 500;
+}
+
+.f20{
+    font-size: 20px;
+}
